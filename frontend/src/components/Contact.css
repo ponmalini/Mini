@@ -1,0 +1,35 @@
+body {
+    background-color: aliceblue;
+}
+
+.contact-container {
+    background-color: rgb(175, 27, 151);
+    height: 200px;
+    padding: 160px;
+    padding-top: 100px;
+    display: flex;
+}
+
+.contact-details {
+    background-color: white;
+    margin-right: 300px;
+    margin-left: 300px;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(205 205 205 / 75%);
+    border-top-width: 15px;
+    border-top-style: solid;
+    top: -30px;
+    position: relative;
+}
+
+.button-contact {
+    margin-Left: 100px;
+    width: 700px;
+    background-Color: black;
+    margin-Top: 20px;
+    height: 40px;
+    text-Align: center;
+    color: white;
+    font-size: large;
+}

@@ -1,0 +1,101 @@
+/* Card container styling */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px; 
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Individual card styling */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px; 
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+/* Card content styling */
+.card-content {
+  text-align: center; 
+}
+
+/* Card title styling */
+.card-title {
+  font-size: 18px;
+  font-weight: bold; /* Emphasize title */
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Button styling */
+.wedding-btn {
+  margin: 5px;
+  padding: 10px 15px; /* Adjust padding for better button size */
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: lightgreen;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.wedding-btn:hover {
+  background-color: #2e8b57; /* Darker green on hover */
+}
+
+/* Edit form styling */
+.edit-form {
+  margin: 20px auto; 
+  padding: 15px;
+  border: 1px solid #ddd; 
+  border-radius: 8px;
+  max-width: 300px; 
+  background-color: white; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Form labels */
+.edit-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555; /* Subtle text color */
+}
+
+/* Form inputs */
+.edit-form input[type="text"],
+.edit-form input[type="file"] {
+  width: 93%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Form buttons */
+.edit-form button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  background-color: lightgreen;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-form button:hover {
+  background-color: #2e8b57; /* Darker green on hover */
+}

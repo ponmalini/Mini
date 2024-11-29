@@ -1,0 +1,35 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.Naming-btn {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.edit-form {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 300px;
+}

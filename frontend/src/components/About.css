@@ -1,0 +1,50 @@
+.services-menu .dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  padding: 1px;
+  list-style: none;
+  margin-right: 100px;
+  border-radius: 2px;
+  width: 150px;
+  z-index: 100;
+  height: 200px;
+  box-shadow: 2px 2px 2px 2px rgb(205 205 205 / 75%)
+}
+
+.services-menu .dropdown li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.services-menu .dropdown li:hover {
+  background-color: #555;
+}
+
+.About-container {
+  margin-left: 30%;
+  margin-right: 28%;
+  text-align: center;
+  font-style: oblique;
+}
+.img{
+  background-image:url("https://wallpaperset.com/w/full/c/5/9/491391.jpg");
+  margin-top: 100px;
+  display: flex;
+  gap: 230px;
+}
+.About1{
+ width: 500px; 
+ margin-left: 200px;
+ border-radius: 30px;
+}
+.paddingleft_20
+  {
+    padding-left: 20px;
+  }
+  .borderradius_20
+  {
+    border-radius: 20px;
+  }
+  

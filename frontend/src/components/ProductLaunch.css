@@ -1,0 +1,137 @@
+
+
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+  }
+  
+  .ProductLaunch-container {
+    max-width: 1700px;
+    margin: 0 auto;
+  }
+  
+  .navbar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    color:black;
+    margin-top: 20px;
+    height: 92px;
+    padding-left: 20px;
+    
+  }
+  
+  .navbar2 h2 {
+    font-size: 24px;
+    color: magenta;
+    font-weight: bold;
+  
+  }
+  
+  .navbar-list2 {
+    list-style: none;
+    display: flex;
+    gap: 71px;
+    margin-right: 500px;
+    padding-left: 100px;
+  }
+  
+  .navbar-list2 li {
+    cursor: -webkit-grab;
+    color:black;
+    position: relative;
+  }
+  
+  .navbar-list2 li:hover {
+    color:pink;
+  }
+  
+  .services-menu .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color:white;
+    padding: 1px;
+    list-style: none;
+    margin-right: 100px;
+    border-radius: 1px solid;
+    width: 150px;
+    z-index: 100;
+    height: 150px;
+  }
+  
+  .services-menu .dropdown li {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .services-menu .dropdown li:hover {
+    background-color: #555;
+  }
+  
+  /* Hero Section */
+  
+  .hero-section2 {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+  
+  .hero-images2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .hero-images2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    margin-right: 100px;
+  }
+  
+  .hero-images2 img.active {
+    opacity: 1;
+  }
+  
+  .service-details{
+    display: flex;
+  }
+  
+  .service{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+    
+  }
+   
+  .bottom{
+    margin-top: 100px;
+  }
+  .paddingleft_20
+  {
+    padding-left: 20px;
+  }
+  .borderradius_20
+  {
+    border-radius: 20px;
+  }
+  
+  
+  
+  
+  
+  

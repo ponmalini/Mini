@@ -1,0 +1,111 @@
+/* Register.css */
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.register-container {
+    position: relative;
+    background-image: url('https://cdn.wallpapersafari.com/35/60/g46fz9.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+
+.register-form {
+  background: rgb(226, 92, 43);;
+  padding:2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 324px;
+  height: 500px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.input-box input {
+  width: 90%;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.input-box i {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 2rem;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: #060506;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+  background-color: #a9127e;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.link-btn {
+  margin-top: 0.5rem;
+  background-color: #3300ff;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  width: 95%;
+}
+
+.btn:hover, .link-btn:hover {
+  opacity: 0.9;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 1rem;
+} 

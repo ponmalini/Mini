@@ -1,0 +1,191 @@
+/* Home.css */
+
+.home-container {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    background-color: white;
+    color: #111010;
+    margin-left: 58px;
+
+
+}
+
+.navbar h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: magenta;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-left: 100px;
+    margin-right: 500px;
+
+}
+
+.navbar-list li {
+    cursor: pointer;
+    position: relative;
+    padding: 20px;
+}
+
+.navbar-list li:hover {
+    color: magenta;
+}
+
+/* Dropdown menu */
+.services-menu .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    padding: 1px;
+    list-style: none;
+    margin-right: 100px;
+    border-radius: 2px;
+    width: 150px;
+    z-index: 100;
+    height: 200px;
+    box-shadow: 2px 2px 2px 2px rgb(205 205 205 / 75%)
+  }
+
+
+ .dropdown li {
+
+    color: black;
+    cursor: pointer;
+
+
+}
+
+.dropdown li:hover {
+    background-color: #555;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+
+
+}
+
+.hero-images {
+    position: relative;
+    height: 86vh;
+    overflow: hidden;
+
+}
+
+.hero-images img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    object-fit: cover;
+    margin-left: 60px;
+    margin-bottom: 700px;
+
+
+}
+
+.hero-images img.active {
+    opacity: 1;
+}
+
+.hero-section h1 {
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 150px;
+    width: 400px;
+    text-align: left;
+    padding-left: 180px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+
+.cta-button {
+    margin-right: 1300px;
+    margin-bottom: 500px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    width: 220px;
+    height: 60px;
+
+
+}
+
+.cta-button:hover {
+    background-color: #e64a19;
+}
+
+/* Experience Section */
+.experience-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: black;
+    margin-left: 60px;
+}
+
+.experience-left {
+    flex: 1;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.experience-left p {
+    width: 400px;
+}
+
+.experience-right {
+    display: flex;
+    align-items: baseline;
+    font-size: 150px;
+    font-weight: bold;
+    color: #ff5733;
+
+}
+
+.experience-years {
+    display: flex;
+    align-items: baseline;
+    color: white;
+}
+
+.static-zero {
+    font-size: 150px;
+}
+
+.experience-text {
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+}
